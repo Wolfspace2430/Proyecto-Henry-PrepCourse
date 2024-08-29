@@ -1,0 +1,21 @@
+
+body{
+    width: 97vw;
+    background-color: azure;
+    font-family: sans-serif;
+}
+
+#principal{
+    font-size: 1.8em;
+}
+
+.imagenes{
+    width: 30vw;
+}
+
+.cards{
+    border: 2px solid #000000;
+    width: fit-content;
+    padding: 0 1em 0 1em;
+    border-radius: 8%;
+}

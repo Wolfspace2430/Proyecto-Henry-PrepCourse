@@ -1,0 +1,50 @@
+/* Reset de CSS básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.6;
+}
+
+body {
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #333333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img, picture, video, canvas {
+    max-width: 100%;
+    display: block;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/* Este reset elimina los márgenes, el relleno y otros estilos predeterminados para la mayoría de los elementos HTML, dejándote con una base más consistente para empezar a aplicar tus propios estilos. */
