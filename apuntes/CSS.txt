@@ -1,0 +1,184 @@
+CSS
+
+vinculación:
+
+<link rel="stylesheet" href="styles.css">
+
+selectores:
+
+css cuenta con una gran variedad de selectores, ya sea que seleccionemos un elemento, seleccionemos una clase, un ID u otro tipo de selectores.
+a continuación ponder todos los selectores que Chat GPT me informo que habían.
+
+
+
+Selector universal (*): Selecciona todos los elementos de la página.
+
+Selector de tipo (element): Selecciona todos los elementos de un tipo específico (por ejemplo, p, div, h1).
+
+Selector de clase (.class): Selecciona todos los elementos que tienen una clase específica.
+
+Selector de ID (#id): Selecciona el elemento único que tiene un ID específico.
+
+Selector de atributo ([attribute]): Selecciona los elementos que tienen un atributo específico, sin importar su valor.
+
+Selector de atributo con valor ([attribute="value"]): Selecciona los elementos que tienen un atributo específico con un valor exacto.
+
+Selector de atributo con valor parcial ([attribute*="value"]): Selecciona los elementos cuyo atributo contiene una cadena de texto específica.
+
+Selector de atributo que comienza con valor ([attribute^="value"]): Selecciona los elementos cuyo atributo comienza con una cadena de texto específica.
+
+Selector de atributo que termina con valor ([attribute$="value"]): Selecciona los elementos cuyo atributo termina con una cadena de texto específica.
+
+Selector de hijo directo (element > element): Selecciona los elementos que son hijos directos de un elemento específico.
+
+Selector de descendiente (element element): Selecciona todos los elementos que son descendientes de un elemento específico.
+
+Selector de hermano adyacente (element + element): Selecciona el primer hermano inmediato que sigue a un elemento específico.
+
+Selector de hermano general (element ~ element): Selecciona todos los hermanos que siguen a un elemento específico.
+
+Selector de primer hijo (:first-child): Selecciona el primer hijo de su elemento padre.
+
+Selector de último hijo (:last-child): Selecciona el último hijo de su elemento padre.
+
+Selector de único hijo (:only-child): Selecciona un elemento si es el único hijo de su elemento padre.
+
+Selector de nth-child (:nth-child(n)): Selecciona el enésimo hijo de su elemento padre según un patrón o un número específico.
+
+Selector de nth-last-child (:nth-last-child(n)): Selecciona el enésimo hijo desde el final de su elemento padre según un patrón o un número específico.
+
+Selector de primer tipo (:first-of-type): Selecciona el primer elemento de su tipo dentro de su elemento padre.
+
+Selector de último tipo (:last-of-type): Selecciona el último elemento de su tipo dentro de su elemento padre.
+
+Selector de nth-of-type (:nth-of-type(n)): Selecciona el enésimo elemento de su tipo dentro de su elemento padre.
+
+Selector de nth-last-of-type (:nth-last-of-type(n)): Selecciona el enésimo elemento de su tipo desde el final dentro de su elemento padre.
+
+Selector de not (:not(selector)): Selecciona todos los elementos que no coinciden con el selector especificado.
+
+Selector de empty (:empty): Selecciona los elementos que no tienen hijos, incluidos los nodos de texto.
+
+Selector de enabled (:enabled): Selecciona los elementos de formulario que están habilitados.
+
+Selector de disabled (:disabled): Selecciona los elementos de formulario que están deshabilitados.
+
+Selector de checked (:checked): Selecciona los elementos de formulario que están marcados o seleccionados.
+
+Selector de focus (:focus): Selecciona el elemento que actualmente tiene el foco.
+
+Selector de hover (:hover): Selecciona el elemento sobre el cual el puntero está actualmente pasando.
+
+Selector de active (:active): Selecciona el elemento que está siendo activado, como un botón que se está presionando.
+
+Selector de visited (:visited): Selecciona los enlaces que ya han sido visitados.
+
+Selector de link (:link): Selecciona los enlaces que aún no han sido visitados.
+
+Selector de target (:target): Selecciona un elemento que coincide con el fragmento de URL actual.
+
+Selector de before (::before): Inserta contenido antes del contenido de un elemento.
+
+Selector de after (::after): Inserta contenido después del contenido de un elemento.
+
+Selector de first-letter (::first-letter): Selecciona la primera letra de un elemento de bloque.
+
+Selector de first-line (::first-line): Selecciona la primera línea de un elemento de bloque.
+
+Selector de placeholder (::placeholder): Selecciona el texto del marcador de posición en un campo de formulario.
+
+Selector de selection (::selection): Selecciona la parte de un documento que ha sido resaltada por el usuario.
+
+Selector de lang (:lang(language)): Selecciona los elementos que coinciden con el idioma especificado.
+
+propiedades absolutas.
+
+unidad de medida absoluta y relativa
+
+em es una unidad de medida relativa a el tamaño de fuente base respecto al documento que estamos realizando. Esto nos indica la cantidad de veces el tamaño base. Esta unidad de medida nos permite usar decimales
+
+vw es otra unidad de medida relativa en el mundo de css y nos indica el viewport width
+
+fit content nos indica el que el elemento acogerá el ancho respecto al contenido que tiene
+
+en caso de usar top, right, botton y left en una etiqueta como padding, este se hace respecto a las manecillas del reloj (12-3-6-9)
+
+
+Margin nos indica cuanto se van a separar los bordes de un elemento respecto a los elementos que lo rodean.
+
+
+https://www.mclibre.org/consultar/htmlcss/css/css-propiedades.html#
+
+
+
+
+
+
+
+
+Flex:
+
+display: flex;
+
+flex maneja como predeterminado el flex direction row
+
+display: flex;
+flex-direction: row;
+
+las direcciones de flex son: row, row reverse, column, column reverse.
+
+para poder separar los objetos, encontramos la propiedad justify-content.
+
+display: flex;
+flex-direction: row;
+justify-content: space-araund;
+
+justify content nos mantiene varios tipos de declaraciones, entre las cuales encontramos: 
+
+1. flex-start
+Los elementos se alinean al inicio del contenedor (a la izquierda en un contenedor de dirección normal).
+
+2. flex-end
+Los elementos se alinean al final del contenedor (a la derecha en un contenedor de dirección normal).
+
+3. center
+Los elementos se alinean en el centro del contenedor, distribuidos equitativamente a ambos lados.
+
+4. space-between
+Los elementos se distribuyen uniformemente, con el primer elemento alineado al inicio y el último al final del contenedor. El espacio restante se distribuye entre los elementos.
+
+5. space-around
+Los elementos se distribuyen uniformemente con espacios iguales alrededor de cada elemento. Esto significa que el espacio entre los elementos es el doble del espacio entre el primer/último elemento y los bordes del contenedor.
+
+6. space-evenly
+Los elementos se distribuyen uniformemente, asegurando que el espacio entre todos los elementos (incluyendo los bordes del contenedor) sea igual.
+
+7. start
+Alinea los elementos al inicio del contenedor, según el eje de escritura del contenedor (por ejemplo, izquierda en LTR, derecha en RTL).
+
+8. end
+Alinea los elementos al final del contenedor, según el eje de escritura del contenedor.
+
+9. left
+Alinea los elementos al borde izquierdo del contenedor.
+
+10. right
+- Alinea los elementos al borde derecho del contenedor.
+
+11. stretch
+- No es una opción válida para `justify-content`, pero se menciona en contextos relacionados con otras propiedades CSS.
+
+12. safe y unsafe
+- Estas palabras clave son opcionales y se usan para evitar el desbordamiento que podría suceder al usar ciertas alineaciones en contenedores que no pueden contener todos los elementos alineados. `safe` evita el desbordamiento, mientras que `unsafe` permite el alineamiento incluso si ocurre desbordamiento.
+
+Ejemplo de uso:
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+En este ejemplo, los elementos dentro de .container se distribuirán uniformemente con espacio entre ellos.
+
+
