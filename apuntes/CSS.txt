@@ -182,3 +182,6 @@ Ejemplo de uso:
 En este ejemplo, los elementos dentro de .container se distribuirán uniformemente con espacio entre ellos.
 
 
+gap nos indica un espacio pequeño que debe de haber entre un contenedor y otro.
+ 
+gap: 1em;
