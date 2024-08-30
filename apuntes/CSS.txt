@@ -185,3 +185,8 @@ En este ejemplo, los elementos dentro de .container se distribuirán uniformemen
 gap nos indica un espacio pequeño que debe de haber entre un contenedor y otro.
  
 gap: 1em;
+
+
+Pseudo clases:
+en la siguiente pagina web podremos ver las pseoudoclases que nos ofrece la tecnología CSS
+https://lenguajecss.com/css/pseudoclases/que-son/

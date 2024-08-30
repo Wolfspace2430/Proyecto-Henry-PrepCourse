@@ -1,0 +1,66 @@
+JavaScript
+
+Henry PrepCourse
+
+Objetivo:
+-Conocer y aprender los fundamentos de programación en JavaScript
+
+¿Qué es un lenguaje de programación?
+-Podemos denominarlo como un lenguaje formal (o artificial, es decir, un lenguaje con reglas gramaticales bien definidas) que le proporciona a una persona, en este caso el programador, la capacidad de escribir (o programar) una serie de instrucciones o secuencias de órdenes en forma de algoritmos con el fin de controlar el comportamiento físico o lógico de un sistema informático, de manera que se puedan obtener diversas clases de datos o ejecutar determinadas tareas.
+
+¿Qué es JavaScript?
+-JavaScript es un lenguaje de programación dinámico que tiene la capacidad de ser utilizado en variados dispositivos, desde ordenadores hasta teléfonos inteligentes.
+
+Basado en objetos, dinámico y amigable para principiantes, JavaScript es el pilar de múltiples herramientas que sus fanáticos fueron ampliando con nuevas funcionalidades a lo largo del tiempo. 
+
+Si bien era conocido como un lenguaje de programación solamente de front-end, en los últimos años tomó una posición muy fuerte también en el lado del servidor, a través de Node.js. Esto significa que alguien puede saber programar todo el stack, esto es: tanto el front como el back-end, ¡aprendiendo un único lenguaje! 
+
+Además, es un lenguaje de tipado dinámico, lo que significa que no necesitamos declarar y establecer un tipo –como número o cadena de caracteres– específico e inflexible para las variables, lo cual da mucha libertad y sencillez, en especial al aprender el lenguaje. Técnicamente, JavaScript es un lenguaje de programación interpretado, por lo que no es necesario compilar los programas para ejecutarlos.
+
+
+
+¿Por qué aprenderlo?
+- Debes saber que la programación es una de las profesiones del futuro (y del presente). En la actualidad, el mundo evoluciona gracias a la tecnología y los avances a los que asistimos como sociedad son tan significativos como prometedores. Todas las industrias, en todas partes del globo, requieren desarrolladores capacitados en las herramientas y lenguajes de programación más utilizados. 
+
+Por dar algunos números, en 2020 había 1 millón de puestos vacantes en tecnología y solo 100,000 personas se graduaron de carreras afines a estos puestos. Además, se estima que para 2025 van a haber más de 150 millones de puestos abiertos (puedes leer más en este informe(opens in a new tab) de Microsoft).
+
+Además, Latinoamérica se posiciona como uno de los mercados de talento más interesantes para las compañías y empresas del universo tech. De acuerdo a este informe (opens in a new tab)de Deel, de julio a diciembre de 2021, la tasa de crecimiento de contratación hacia Latinoamérica aumentó un 156%, siendo el rol de desarrollador el más buscado por las empresas a nivel global.
+
+
+Junto con Python y Java, JavaScript es uno de los lenguajes de programación más utilizados por las empresas en el desarrollo de sus proyectos en el mundo del software.
+
+Sin ir más lejos, las compañías que están construyendo el futuro destacan, entre las herramientas de su tech stack, a JavaScript como uno de los lenguajes de programación preferidos para desarrollar sus productos.
+
+Lo cierto es que la mayoría de las aplicaciones que vemos hoy en día usan JavaScript. Los desarrolladores web de todo el mundo lo eligen por su facilidad de uso y porque su curva de aprendizaje es una de las más sencillas. 
+
+Aprenderlo te permitirá crear cualquier aplicación para cualquier dispositivo o plataforma. Además de ser el lenguaje de programación más popular, es el más utilizado en el mundo según la última encuesta de Stack Overflow (puedes ver más aquí, en este reporte(opens in a new tab))
+
+
+
+características:
+Velocidad 🏃
+
+En esencia, JavaScript tiende a ser muy rápido. A menudo se ejecuta inmediatamente en el navegador; en tanto no requiera recursos externos, JavaScript no tiene permitido retrasarse por llamados del servidor backend. 
+
+Popularidad 🏆
+
+JavaScript está en todos lados y se espera que su popularidad siga en alza. Si navegas por recursos y plataformas tales como StackOverflow y GitHub verás la cantidad de proyectos desarrollados en base a este lenguaje. Es más, con la llegada de Node.js, se ha incrementado su uso en el back-end y por lo tanto incorporado cada vez con más frecuencia en los tech stack de todo tipo de startups y compañías. 
+
+Server Load 💻
+
+JavaScript trabaja del lado del cliente lo que reduce la demanda de servidores en general. 
+
+Compatibilidad 🔁
+
+A diferencia de otros lenguajes scripting, JavaScript puede ser usado en cualquier página web y en diferentes tipos de aplicaciones gracias al soporte que ofrecen otros lenguajes como Pearl y PHP. 
+
+Simplicidad 💆‍♀️
+
+La sintaxis de JavaScript está inspirada en Java, y en relación a otros lenguajes de programación igualmente populares, es relativamente sencillo de aprender. 
+
+Versatilidad 🚀
+
+Hay muchos métodos para usar JavaScript mediante servidores Node.js.  Si tú estás en bootstrap Node.js con Express, puedes usar un documento database como MongoDB, y usar JavaScript en el frontend para clientes.  Una gran ventaja de JavaScript es que es el único lenguaje que te permite trabajar en modo Full Stack. 
+
+
+
